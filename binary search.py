@@ -1,3 +1,4 @@
+#bianry search
 def bs(arr,left,right,target):
     while left<=right:
          mid=(left+right)//2

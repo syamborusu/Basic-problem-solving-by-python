@@ -1,3 +1,4 @@
+#linear search 
 def ls(list,target):
     for i in range(0,len(list)):  
         if list[i]==target:
