@@ -9,8 +9,8 @@ def bs(arr,left,right,target):
          else:
              right=mid-1
     return-1    
-arr=[2,3,4,5,6,7,]
-target=7
+arr=[10,20,30,40,50,60,70,80,90]
+target=40
 left=0
 right=len(arr)-1
 print(bs(arr,left,right,target))

@@ -8,5 +8,5 @@ def findMedianSortedArrays(nums1,nums2):
         median=(fnums[n//2-1]+fnums[n//2])/2.0
     return median #if the length of the list is even 
 num1=[1,3,4]
-num2=[2]
+num2=[2,6,5,7]
 print(findMedianSortedArrays(num1,num2))
