@@ -6,5 +6,5 @@ def ls(list,target):
     else:
         return "not in list"
 list=[1,3,5,7,9,11]
-target=2
+target=5
 print(ls(list,target))
