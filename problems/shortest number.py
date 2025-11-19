@@ -12,6 +12,6 @@ def shortest_num(num):
     else:
         digit=sorted(str(-num),reverse=True)
         return int("".join(digits))
-num=302
+num=301
 result=(shortest_num(num))
 print(result) 

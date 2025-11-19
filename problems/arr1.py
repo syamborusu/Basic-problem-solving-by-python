@@ -8,6 +8,7 @@ total.reverse()
 print(total)
 total1=total[::-1]
 print("total1:",total1)
+print("="*50)
 target=11
 for i in range(len(total1)):
     for j in range(i+1,len(total1)):
